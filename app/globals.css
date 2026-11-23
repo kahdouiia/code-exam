@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-stone-canvas: #fafaf9;
+  --color-pure-white: #ffffff;
+  --color-stone-border: #e8e6e5;
+  --color-stone-muted: #d6d3d1;
+  --color-ash-gray: #a8a29e;
+  --color-warm-gray: #78716c;
+  --color-ink-black: #0c0a09;
+  --color-soot: #1c1917;
+  --color-sky-wash: #c1e1f7;
+  --color-cyan-signal: #3ba6f1;
+  --color-cyan-edge: #3398e1;
+
+  --font-sans: var(--font-vazirmatn), var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-vazirmatn), var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-latin: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --shadow-card: 0px 4px 16px 0px rgba(0, 0, 0, 0.05);
+  --shadow-floating: 0px 12px 45px 0px rgba(17, 12, 46, 0.12);
+  --shadow-subtle: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+html,
+body {
+  background-color: #fafaf9;
+  color: #0c0a09;
+  font-family: var(--font-vazirmatn), var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

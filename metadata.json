@@ -1,0 +1,8 @@
+{
+  "name": "CodeExam — Software Engineering Assessment Platform",
+  "description": "پلتفرم آزمون آنلاین کتاب‌های مهندسی نرم‌افزار با پنل مدیریت، آپلود بانک سوال JSON، احراز هویت JWT و پشتیبانی از PostgreSQL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
